@@ -6,7 +6,7 @@
 
     ],
     "website": "",
-    "success_url": "https://telegram.me/Privapact",
+    "success_url": "https://telegram.me/Repthon",
     "env": {
         "BOT_TOKEN": {
             "description": "توكن البوت من @botfather",
