@@ -1026,8 +1026,11 @@ async def users(event):
     chat_id = event.chat_id
     user_id = event.sender_id
 
-    # Check if the user is a developer
 
+    user_id = event.sender_id
+
+
+    sender_id = event.sender_id  # Store the sender_id
 
     async with client.conversation(event.chat_id) as x:
         try:
