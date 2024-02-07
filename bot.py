@@ -55,7 +55,7 @@ from telethon.tl.types import PasswordKdfAlgoUnknown
 import string
 from telethon import tl
 import random
-api_id = os.environ.get("APP_ID")
+api_id = os.environ.get("11750778")
 import os, asyncio, re
 from telethon.sync import TelegramClient, events
 from telethon.tl.functions.account import UpdatePasswordSettingsRequest
@@ -63,8 +63,8 @@ from telethon.sync import TelegramClient, events
 from telethon.sessions import MemorySession
 from os import system
 from telethon.tl.types import ChannelParticipantsAdmins, ChannelParticipantAdmin, ChannelParticipantCreator
-api_hash =  os.environ.get("API_HASH")
-token = os.environ.get("BOT_TOKEN")
+api_hash =  os.environ.get("d0352df3ddb5e00bcf16b55dae071b52")
+token = os.environ.get("5901305358:AAG_DA1t3CXnakCe8BAEsNWGG5uDU8MtpJk")
 client = TelegramClient('session_name', api_id, api_hash).start(bot_token=token)
 bot = TelegramClient('session_name', api_id, api_hash)
 from telethon import TelegramClient as tg
